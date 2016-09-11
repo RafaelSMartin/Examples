@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <string-array name="niveles">
+        <item>@string/nivel1</item>
+        <item>@string/nivel2</item>
+        <item>@string/nivel3</item>
+    </string-array>
+    
+    <string-array name="idioma">
+        <item>@string/spanish</item>
+        <item>@string/english</item>
+    </string-array>
+    <string-array name="idiomaValores">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+</resources>

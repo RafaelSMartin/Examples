@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="fondo">#CCCCCC</color>
+    <color name="fondo_boton">#8D9CFF</color>
+    <color name="texto_boton">#FFFFFF</color>
+</resources>

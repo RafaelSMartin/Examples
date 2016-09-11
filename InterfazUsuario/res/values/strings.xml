@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InterfazUsuario</string>
+    <string name="action_settings">Preferencias</string>
+    
+    <string name="campo_texto">Campo de texto</string>
+    <string name="boton1">Botón 1</string>
+    <string name="boton2">Botón 2</string>
+    <string name="boton3">Botón 3</string>
+    <string name="boton4">Botón 4</string>
+    
+    <string name="boton1_titulo">Título botón 1</string>
+    <string name="texto_boton1">Texto que aparece al pulsar el botón 1.</string>
+    
+    <string name="boton2_titulo">Título botón 2</string>
+	<string name="nivel1">Nivel 1</string>
+	<string name="nivel2">Nivel 2</string>
+	<string name="nivel3">Nivel 3</string>
+	
+	<string name="spanish">Español</string>
+	<string name="english">Inglés</string>
+	
+   	<string name="desarrolladoPor">Desarrollado por..</string>
+   	<string name="texto_desarrolladoPor">Ejemplo desarrollado por Juan García Saravia</string>
+    	
+</resources>
