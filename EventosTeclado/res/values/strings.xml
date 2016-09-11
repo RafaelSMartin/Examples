@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EventosTeclado</string>
+    <string name="action_settings">Settings</string>
+    <string name="instruccion">Pulsa y suelta las teclas 1, 2, 3 y 4.</string>
+
+</resources>
