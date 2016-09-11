@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+	<persona>
+		<dni>30</dni>
+		<nombre>Juan</nombre>
+		<ciudad>Córdoba</ciudad>
+	</persona>
+	<persona>
+		<dni>31</dni>
+		<nombre>Ana</nombre>
+		<ciudad>Sevilla</ciudad>
+	</persona>
+	<persona>
+		<dni>32</dni>
+		<nombre>Antonio</nombre>
+		<ciudad>Málaga</ciudad>
+	</persona>	
+</personas>

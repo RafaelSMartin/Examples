@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alamcenamiento</string>
+    <string name="app_name_preferencias">Almacenamiento preferecias</string>
+    <string name="app_name_fichero">Almacenamiento fichero</string>
+   	<string name="app_name_sax">Procesar XML con SAX</string>
+   	<string name="app_name_dom">Procesar XML con DOM</string>
+   	<string name="app_name_sqlite">Almacenamiento SQLite</string>
+   	<string name="app_name_content_provider_call_log">ContentProvider CallLog</string>
+   	<string name="app_name_content_provider_datos_personas">ContentProvider DatosPersonas</string>  
+   	   	
+    <string name="siguiente">Siguiente</string>
+    <string name="anterior">Anterior</string>
+    
+    <string name="info_preferencias">Información almacenada en las preferencias</string>
+    <string name="info_ficheros">Información almacenada en un fichero.\nPrimero escritura y lectura de un fichero en la memoria interna.\nSegundo escritura y lectura de un fichero en la memoria externa.\nTercero lectura de un fichero almacenado en los recursos de la aplicación.</string>
+	<string name="info_sax">Archivo XML procesado mediante SAX y almacenado en un fichero de la memoria interna</string>	
+	<string name="info_dom">Archivo XML procesado mediante DOM y almacenado en un fichero de la memoria interna</string>
+	<string name="info_sqlite">Información escrita y leida en una base de datos.</string>
+	<string name="info_content_provider_call_log">Obtenemos información del ContentProvider CallLog y la almacenamos en una base de datos.</string>
+	<string name="info_content_provider_datos_personas">Manipulamos el ContentProvider DatosPersonas.</string>
+    
+</resources>

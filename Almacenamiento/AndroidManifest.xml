@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jgs.almacenamiento"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission 
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission 
+        android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission 
+        android:name="android.permission.WRITE_CALL_LOG" />
+    
+    <permission
+        android:name="com.jgs.READ_DATABASE"
+        android:protectionLevel="normal">
+    </permission>
+    <permission
+        android:name="com.jgs.WRITE_DATABASE"
+        android:protectionLevel="normal">
+    </permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jgs.almacenamiento.PreferenciasActivity"
+            android:label="@string/app_name_preferencias" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.jgs.almacenamiento.FicherosActivity"
+            android:label="@string/app_name_fichero" />
+        
+        <activity
+            android:name="com.jgs.almacenamiento.SAXParserActivity"
+            android:label="@string/app_name_sax" />
+        
+        <activity
+            android:name="com.jgs.almacenamiento.DOMParserActivity"
+            android:label="@string/app_name_dom" />
+        
+        <activity
+            android:name="com.jgs.almacenamiento.SQLiteActivity"
+            android:label="@string/app_name_sqlite" />
+        
+        <activity
+            android:name="com.jgs.almacenamiento.ContentProviderCallLogActivity"
+            android:label="@string/app_name_content_provider_call_log" />
+        
+        <provider 
+            android:name="com.jgs.almacenamiento.ContentProviderDatosPersonas"
+            android:authorities="com.jgs.almacenamiento"
+            android:exported="true"
+            android:readPermission="com.jgs.READ_DATABASE"
+            android:writePermission="com.jgs.WRITE_DATABASE">
+        </provider>
+        
+        <activity
+            android:name="com.jgs.almacenamiento.ContentProviderDatosPersonasActivity"
+            android:label="@string/app_name_content_provider_datos_personas" />
+        
+    </application>
+
+</manifest>
