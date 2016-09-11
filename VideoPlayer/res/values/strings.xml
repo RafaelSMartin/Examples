@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">VideoPlayer</string>
+	<string name="path">/data/video.mp4</string>
+	<string name="log">Log:</string>
+	<string name="play">Play</string>
+	<string name="pause">Pause</string>
+	<string name="stop">Stop</string>
+	<string name="logButton">LogButton</string>
+    
+</resources>
