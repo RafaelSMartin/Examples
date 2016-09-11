@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Servicio de Musica</string>
+    <string name="action_settings">Settings</string>
+    <string name="reproduccionMusica">Servicio de reprodución de música</string>
+    <string name="arrancar">Arrancar servicio</string>
+    <string name="detener">Detener servicio</string>
+    <string name="socorro">!SOCORRO¡</string>
+    
+</resources>

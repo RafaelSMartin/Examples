@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reproduccionMusica"/>
+    
+    <Button 
+        android:id="@+id/boton_arrancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arrancar"/>
+    
+    <Button 
+        android:id="@+id/boton_detener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detener"/>
+
+    <Button
+        android:id="@+id/boton_socorro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/socorro" />
+    
+</LinearLayout>
