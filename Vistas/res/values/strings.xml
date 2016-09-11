@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vistas</string>
+    <string name="vistaClaseInternaDeActivity">Vista en clase interna de Activity</string>
+    <string name="vistaFicheroIndependiente">Vista en fichero independiente</string>
+    <string name="vistaFicheroIndependienteAgregadoLayout">Vista en fichero independiente agregado al layout</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="volver">Volver</string>
+    <string name="caso1">Tenemos una Actvity que no posee una vista implementada por nosotros y agrega un layout a la actividad mediante el método setContentView()</string>
+    <string name="caso2">Tenemos una Actvity que posee una vista implementada por nosotros y que es agrgada a la actividad mediante el método addContentView()</string>
+    <string name="caso3">Tenemos una Actvity que posee una vista implementada por nosotros en un fichero independiente y que es agregada a la actividad mediante el método addContentView()</string>
+   	<string name="caso4">Tenemos una Actvity que posee una vista implementada por nosotros en un fichero independiente y que es agregada a la actividad a través de un layout</string>
+
+</resources>

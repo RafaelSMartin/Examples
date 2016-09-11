@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle">
+        <ignore path="res/layout/vista_clase_interna_de_activity.xml" />
+    </issue>
+</lint>
