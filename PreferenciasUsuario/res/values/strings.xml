@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PreferenciasUsuario</string>
+    <string name="inicio">Ejemplo de preferencias de usuario. Accede a las preferencias a través del menú. Pulsando el botón puedes ver el valor de las preferencias.</string>
+    
+    <string name="preferencias">Preferencias</string>
+    
+    <string name="check_box">CheckBox</string>
+    <string name="edit_text_preference">EditTextPreference</string>
+    <string name="list_preference">ListPreference</string>
+    <string name="multi_selected_list_preference">MultiSelectedListPreference</string>
+    <string name="switch_preference">SwitchPreference</string>
+    <string name="ringtone_preference">RingtonePreference</string>    
+    <string name="preference_screen">PreferenceScreen</string>
+    <string name="preference_category">PreferenceCategory</string>
+    
+    <string name="summary_check_box">Permite seleccionar una opción</string>
+    <string name="summary_edit_text_preference">Permite introducir un valor de texto</string>
+    <string name="summary_list_preference">Permite elegir una opción</string>
+    <string name="summary_multi_selected_list_preference">Permite elegir múltiples opciones</string>
+    <string name="summary_switch_preference">Permite habilitar o desabilitar una opción</string>
+    <string name="summary_ringtone_preference">Permite seleccionar un tono</string>
+    <string name="summary_preference_screen">Divide las preferencia en varias pantallas</string>
+    <string name="summary_preference_category">Agrupa las preferencia por categorias</string> 
+
+    <string name="boton">Valor preferencias</string>
+    
+</resources>

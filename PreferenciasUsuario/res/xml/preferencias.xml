@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="preferencias_principal">
+    
+	<CheckBoxPreference 
+	    android:summary="@string/summary_check_box" 
+	    android:key="checkBox" 
+	    android:title="@string/check_box"/>
+	
+	<EditTextPreference 
+	    android:title="@string/edit_text_preference" 
+	    android:key="editTextPreference" 
+	    android:summary="@string/summary_edit_text_preference"/>
+	
+	<ListPreference 
+	    android:key="listPreference" 
+	    android:title="@string/list_preference" 
+	    android:summary="@string/summary_list_preference" 
+	    android:entryValues="@array/opcionesValores" 
+	    android:entries="@array/opciones"/>
+	
+	<MultiSelectListPreference
+	    android:entries="@array/opciones" 
+	    android:entryValues="@array/opcionesValores" 
+	    android:key="multiSelectedListPreference" 
+	    android:title="@string/multi_selected_list_preference" 
+	    android:summary="@string/summary_multi_selected_list_preference"/>
+	
+	<SwitchPreference 
+	    android:key="switchPreference" 
+	    android:title="@string/switch_preference" 
+	    android:summary="@string/summary_switch_preference"/>
+	
+	<RingtonePreference 
+	    android:key="ringtonePreference" 
+	    android:showSilent="true" 
+	    android:ringtoneType="all" 
+	    android:summary="@string/summary_ringtone_preference" 
+	    android:title="@string/ringtone_preference"/>
+	
+	<PreferenceScreen android:key="preferenceScreen" android:summary="@string/summary_preference_screen" android:title="@string/preference_screen">
+	    <CheckBoxPreference 
+	        android:summary="@string/summary_check_box" 
+	        android:key="checkBox" 
+	        android:title="@string/check_box"/>
+	</PreferenceScreen>
+	
+	<PreferenceCategory android:key="preferenceCategory" android:summary="@string/summary_preference_category" android:title="@string/preference_category">
+	    <CheckBoxPreference 
+	        android:summary="@string/summary_check_box" 
+	        android:key="checkBox" 
+	        android:title="@string/check_box"/>
+	</PreferenceCategory>
+	
+</PreferenceScreen>
