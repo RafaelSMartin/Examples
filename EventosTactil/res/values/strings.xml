@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EventosTactil</string>
+    <string name="action_settings">Settings</string>
+    <string name="instruccion">Toca la zona gris de la pantalla</string>
+	<string name="limpiar">Limpiar texto</string>
+    
+</resources>
